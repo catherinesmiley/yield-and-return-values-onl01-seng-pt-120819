@@ -1,11 +1,39 @@
+# def hello(array)
+#   i = 0
+#   collection = []
+#   while i < array.length
+#     collection << yield(array[i])
+#     i += 1
+#   end
+#   collection
+# end
+
+# hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def hello(array)
-  i = 0
+  i = 0 
   collection = []
   while i < array.length
     collection << yield(array[i])
-    i += 1
+    i += 1 
   end
   collection
 end
-
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
